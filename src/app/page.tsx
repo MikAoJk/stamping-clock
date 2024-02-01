@@ -8,7 +8,7 @@ export default function Home() {
       </div>
     <div className="flex min-h-screen flex-col items-center justify-between md:p-12">
       <div className="z-5 items-center justify-between font-mono text-sm flex">
-          <StampClock progress={24} progressText={"sooon"} />
+          <StampClock/>
       </div>
     </div>
     </main>
