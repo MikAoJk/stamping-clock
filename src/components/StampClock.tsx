@@ -8,6 +8,8 @@ const StampClock = () => {
     const [inn, setInn] = useState(false);
 
     const setInnTrueHandler = () => {
+        //const newTodo = {text, complete: false};
+        //setTodos([...todos, newTodo]);
         setInn(true);
     }
 
