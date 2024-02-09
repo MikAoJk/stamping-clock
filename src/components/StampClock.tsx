@@ -63,7 +63,7 @@ const StampClock = () => {
             </button>
             }
             {(stamps != undefined) &&
-                <ul className="my-6">
+                <ul className="my-6 text-left">
                     {stamps.map(stamp => (
                         <StampList key={stamp.time.toISOString()} stamp={stamp}/>
                     ))}
