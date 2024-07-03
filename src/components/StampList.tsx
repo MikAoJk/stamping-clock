@@ -6,12 +6,12 @@ interface StampListProps {
 }
 
 export const StampList: React.FC<StampListProps> = ({stamp}) => {
-    const currentTime = time.getTime();
+    const currentTime = stamp.time.getTime();
     const updatedTime = new Date(currentTime + 2 * 60 * 60 * 1000);
         
     return (
         <li>
-            {stamp.action} {stamp.updatedTime.toISOString()}
+            {stamp.action} {updatedTime.toISOString()}
         </li>
     );
 };
